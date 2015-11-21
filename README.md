@@ -1,6 +1,8 @@
 Matchbox
 ========
 
+[![Build Status](https://travis-ci.org/macrodactyl/matchbox.svg?branch=master)](https://travis-ci.org/macrodactyl/matchbox)
+
 Store and fetch samples (or anything, really) with AWS S3 cloud storage.
 
 ## Development
