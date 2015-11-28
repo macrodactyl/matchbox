@@ -12,7 +12,7 @@ main :: IO ()
 main = hspec spec
 
 spec :: Spec
-spec =
+spec = parallel $
   describe "URLName.convert" $ do
     it "is a no op with OK text" $
       convert "hello.world" `shouldBe` "hello.world"
